@@ -25,6 +25,7 @@ app.listen(port, () => {
 
 //Define other route here, before default
 app.use('/api/users', require('./routes/api/users.cjs'));
+app.use('/api/notes', require('./routes/api/notes.cjs'))
 
 
 //This needs to be the last page
